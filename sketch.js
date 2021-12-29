@@ -78,13 +78,13 @@ function setup() {
   button = createImg('cut_btn.png');
   button.position(200,320);
   button.size(50,50);
-
+button.mouseClicked(remove_rope);
   button2 = createImg('cut_btn.png');
   button2.position(30,420);
   button2.size(50,50);
 
  // write a correct block of code to add button to cut the rope 
- button.mouseClicked(drop);
+ button2.mouseClicked(drop);
 
 
 
